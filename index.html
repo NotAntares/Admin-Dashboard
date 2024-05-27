@@ -4,19 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="container">
-        <header class="head">
-
+        <header>
+            <article class="search">
+                <div class="icon"></div>
+                <div class="bar"></div>
+            </article>
+            <article class="buttons">
+                <button>New</button>
+                <button>Sort</button>
+                <button>Liked</button>
+            </article>
+            <article class="profile">
+                <div class="pic"><img src="img/shark.PNG" alt="Proifle picture"></div>
+                <div>
+                    <p>Welcome to the gallery of </p>
+                    <h2>@NotAntares</h2>
+                </div>
+            </article>
         </header>
-        <main class="content">
+        <main>
+            <h3 class="h-projects">Projects</h3>
+            <section class="projects">
+                <article class="card"></article>
+                <article class="card"></article>
+                <article class="card"></article>
+                <article class="card"></article>
+                <article class="card"></article>
+                <article class="card"></article>
+            </section>
+            <h3>Notes</h3>
+            <section class="info">
+                <article class="card notes"></article>
+                <h3>Inspiration</h3>
+                <article class="card inspo"></article>
+            </section>
 
         </main>
         <section class="dashboard">
-            
+            <article class="head">
+                <div class="logo">
+                    <span class="form upperleft"></span><span class="form upperright"></span><span class="form lowerleft"></span><span class="form lowerright"></span>
+                </div>
+                <h2>Dashboard</h2>
+            </article>
+            <nav>
+                <h3>Home</h3>
+                <h3>Profile</h3>
+                <h3>Messages</h3>
+                <h3>Tasks</h3>
+                <h3>Community</h3>
+            </nav>
+
         </section>
     </div>
 </body>
