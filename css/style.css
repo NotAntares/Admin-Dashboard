@@ -127,7 +127,6 @@ main h3{
 .card{
     background-color: #fff;
     border-radius: 15px;
-    height: 100%;
     box-shadow: 4px 4px 10px  rgba(34, 34, 34, .2);
     border-left: 15px solid rgb(210, 123, 115);
     position: relative;
@@ -136,7 +135,9 @@ main h3{
 
 .card img{
     width: 100%;
+    object-fit: cover;
 }
+
 a{
     display: block;
 }
